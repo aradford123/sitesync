@@ -33,7 +33,7 @@ Task completed:Success - elapsed time:34sec
 
 ```
 
-There are two optional arguments -v for loggin and --timeout for the timeout to wait for the task (default is 100 seconds)
+There are two optional arguments -v for loggin and --timeout for the timeout to wait for the task (default is 100 seconds).  Don't set this too low as the program will stop polling the task.
 
 ```
 $ ./site_sync.py --sitename Global/AUS --timeout 2
